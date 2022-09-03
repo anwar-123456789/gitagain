@@ -1,0 +1,19 @@
+1 mkdir learn-git
+2 cd learn-git
+3 cd >third.txt
+4 git init
+5 git add third.txt
+	git config --global user.email "anwar.akid1995@gmail.com"
+	git config --global user.name "anwar-123456789"
+6 git commit -m "adding third.txt"
+7 git log
+8 cd >fourth.txt
+9 git add fourth.txt
+10 git commit -m "adding frouth.txt"
+11 git rm 'thrid.txt'
+12 git add .
+13 git commit -m "remove third.txt"
+14 git log
+15 git config --global core.pager 'cat'
+16 git config
+17 git config --global
